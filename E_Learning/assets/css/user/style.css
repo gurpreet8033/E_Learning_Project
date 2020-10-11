@@ -1,0 +1,56 @@
+﻿body {
+    margin: 0;
+}
+
+.mycon {
+    background: url("../../image/background.jpg");
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+}
+
+.mynavbar {
+    display: grid;
+    justify-items: center;
+    background: rgba(255,255,255,0.8);
+    border-radius: 3px;
+}
+ .mynavbar ul {
+    }
+
+ .mynavbar ul li {
+ list-style: none;
+ float: left;
+ padding-left: 30px;
+ font-weight: 500;
+ }
+
+.section {
+    position: relative;
+    top: 20vh;
+    left: 50px;
+    width: 25%;
+    color: #efefef;
+}
+
+.mybtn {
+    border: none;
+}
+
+@media screen and (min-width:480px) {
+    .section {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width:800px) {
+    .section {
+        width: 30%;
+    }
+}
+/* .section h1{
+    color:#efefef;
+}
+.section p{
+    color:#efefef;
+} */

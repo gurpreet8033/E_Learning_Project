@@ -1,0 +1,32 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="index.master.cs" Inherits="E_Learning.index" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="../assets/css/user/style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
+    <script src="https://kit.fontawesome.com/38e816db70.js" crossorigin="anonymous"></script>
+
+
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <div class="mynavbar pt-4">
+                <ul>
+                    <li>Home</li>
+                    <li>Contact us</li>
+                    <li>About</li>
+                    <li><a href="RegisterationPage.aspx">Sign-up</a></li>
+                </ul>
+            </div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
